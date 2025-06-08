@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 // Change this to your actual GitHub raw URL after first commit
-const LINKS_JSON_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/links.json'
+const LINKS_JSON_URL = 'https://github.com/Militiaking/link-store/blob/main/links.json'
 
 interface LinkItem {
   title: string
